@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: postgres
+
+development:
+  <<: *default
+  database: restaurant_reservation_apis_dev_db
+test: &test
+  <<: *default
+  database: restaurant_reservation_apis_test_db
+
+production:
+  <<: *default
+  database: restaurant_reservation_apis_prod_db

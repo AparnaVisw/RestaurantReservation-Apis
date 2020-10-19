@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  guest_min_no: 1
+  guest_max_no: 1
+  restaurant: one
+
+two:
+  name: MyString
+  guest_min_no: 1
+  guest_max_no: 1
+  restaurant: two

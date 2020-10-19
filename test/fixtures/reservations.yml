@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reservation_time: 2020-10-17 20:43:35
+  updated_reservation_time: 2020-10-17 20:43:35
+  table: one
+  shift: one
+  guest: one
+  guest_count: 1
+
+two:
+  reservation_time: 2020-10-17 20:43:35
+  updated_reservation_time: 2020-10-17 20:43:35
+  table: two
+  shift: two
+  guest: two
+  guest_count: 1

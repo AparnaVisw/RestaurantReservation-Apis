@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi <%= @email %>!</h1>
+    <p> An order has been updated. </p>
+    <p>Order details: 
+    	Old reservation time: 
+    	<%= @old.reservation_time %> 
+    	New reservation time:
+    	<%= @new.reservation_time %>
+    	Old guest count
+    	<%= @old.guest_count %>
+    	New guest count
+    	<%= @new.guest_count %>
+    </p>
+  </body>
+</html>
